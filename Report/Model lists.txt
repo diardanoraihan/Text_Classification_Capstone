@@ -1,0 +1,25 @@
+Baseline:
+Word Embedding (random) + CNN
+
+Feed Forward Model:
+1. BoW (binary/count/TFIDF/Freq) MLP
+2. WE (rand) MLP
+3. WE (Word2Vec Static) MLP
+4. WE (Word2Vec Dynamic) MLP
+5. BoW (binary/count/TFIDF/Freq) edRVFL
+6. WE (rand) edRVFL
+7. WE (Word2Vec Static) edRVFL
+
+Convolutional Model:
+1. WE (Word2Vec static) CNN
+2. WE (Word2Vec dynamic) CNN
+3. WE (Word2Vec static) TCN
+4. WE (Word2Vec dynamic) TCN
+
+Recurrent Model:
+1. WE (Word2Vec static) RNN
+2. WE (Word2Vec dynamic) RNN
+3. WE (Word2Vec static) GRU
+4. WE (Word2Vec dynamic) GRU
+5. WE (Word2Vec static) LSTM
+6. WE (Word2Vec dynamic) LSTM
