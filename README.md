@@ -17,6 +17,12 @@ The result shows that the __word embedding provides a robust feature extractor__
             <th>Layer 2</th>
             <th>Layer 3</th>
         </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th>1</th>
+            <th>2</th>
+        </tr>
     </thead>
     <tbody>
         <tr>
