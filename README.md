@@ -12,6 +12,7 @@ The result shows that the __word embedding provides a robust feature extractor__
 ## The Proposed Deep Learning Models
 | Model | Bag-of-Words | WE-avg| WE-random | WE-static | WE-dynamic |
 | --- | --- | --- | --- | --- | --- |
+| Shallow Neural Network | [x] | [x] | - | - | - |
 
 
 ## Datasets
