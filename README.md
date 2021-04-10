@@ -12,7 +12,11 @@ The result shows that the __word embedding provides a robust feature extractor__
 ## The Proposed Deep Learning Models
 
 ## Datasets
-
+| Dataset       | Number of Classes | Cool  |
+| ------------- |:-----------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 ## Feature Extraction
 
