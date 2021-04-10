@@ -10,10 +10,13 @@ The experiment will evaluate the performance of some popular deep learning model
 The result shows that the __word embedding provides a robust feature extractor__ to all the models in making a better final prediction. The experiment also highlights __the effectiveness of the ensemble-based__ and __temporal convolutional neural network__ in achieving good performances and even competing with the state-of-the-art benchmark models.
 
 ## The Proposed Deep Learning Models
+| Model | Bag-of-Words | Word Embedding |
+|       |              | random | static | dynamic |avg |
+| ----- | -------------| -------|--------| --------|----|
 
 ## Datasets
-| Dataset | Classes | Avg Sentence <br />Length | Dataset Size | Vocab Size | Test Size | 
-| ------- | ------- | ------------------- | ------------ | ---------- | --------- |
+| Dataset | Classes | Average <br /> Sentence Length | Dataset Size | Vocab Size | Test Size | 
+|:-------:|:-------:|:-------------------:|:------------:|:----------:|:---------:|
 | `MR`    | 2       | 20                  | 10662        | 18758      | CV        |
 | `SUBJ`  | 2       | 23                  | 10000        | 21322      | CV        |
 | `TREC`  | 5       | 10                  | 5952         | 8759       | 500       |
@@ -24,15 +27,7 @@ The result shows that the __word embedding provides a robust feature extractor__
 - __TREC__. Text REtrieval Conference – classifying a question into six categories (a person, location, numeric information, etc.) [19].
 - __CR__. Customer Reviews – classifying a product review (cameras, MP3s, etc.) as positive or negative [20].
 - __MPQA__. Multi-Perspective Question Answering – opinion polarity detection [21].
-
-## Feature Extraction
-1. Bag-of-Words (BoW): binary, count freq, TF-IDF
-2. Word Embedding (Word2Vec):
-- rand
-- static
-- dynamic
-- avg
-
+_Note_: the test size CV stands for cross-validation. It indicates the original dataset does not have a standard train/test split. Hence, we use a 10-fold CV. The AcademiaSinicaNLPLab [22] repository provides access to all these datasets.
 
 ## Training Process
 
