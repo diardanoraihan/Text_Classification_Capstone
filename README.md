@@ -12,12 +12,26 @@ The result shows that the __word embedding provides a robust feature extractor__
 ## The Proposed Deep Learning Models
 
 ## Datasets
-| Dataset | Classes | Average Sentence Length | Dataset Size | Vocab Size | Test Size | 
-| ------- | ------- | ----------------------- | ------------ | ---------- | --------- |
-| MR      | 2       | 20                      | 10662        | 18758      | CV        |
+| Dataset | Classes | Avg Sentence <br />Length | Dataset Size | Vocab Size | Test Size | 
+| ------- | ------- | ------------------- | ------------ | ---------- | --------- |
+| `MR`    | 2       | 20                  | 10662        | 18758      | CV        |
+| `SUBJ`  | 2       | 23                  | 10000        | 21322      | CV        |
+| `TREC`  | 5       | 10                  | 5952         | 8759       | 500       |
+| `CR`    | 2       | 19                  | 3775         | 5334       | CV        |
+| `MPQA`  | 2       | 3                   | 10606        | 6234       | CV        |
+- __MR__. Movie Reviews – classifying a review as positive or negative [17].
+- __SUBJ__. Subjectivity – classifying a sentence as subjective or objective [18].
+- __TREC__. Text REtrieval Conference – classifying a question into six categories (a person, location, numeric information, etc.) [19].
+- __CR__. Customer Reviews – classifying a product review (cameras, MP3s, etc.) as positive or negative [20].
+- __MPQA__. Multi-Perspective Question Answering – opinion polarity detection [21].
 
 ## Feature Extraction
-
+1. Bag-of-Words (BoW): binary, count freq, TF-IDF
+2. Word Embedding (Word2Vec):
+- rand
+- static
+- dynamic
+- avg
 
 
 ## Training Process
