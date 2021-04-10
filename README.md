@@ -10,8 +10,8 @@ The experiment will evaluate the performance of some popular deep learning model
 The result shows that the __word embedding provides a robust feature extractor__ to all the models in making a better final prediction. The experiment also highlights __the effectiveness of the ensemble-based__ and __temporal convolutional neural network__ in achieving good performances and even competing with the state-of-the-art benchmark models.
 
 ## The Proposed Deep Learning Models
-| Model | Bag-of-Words | Word Embedding |
-|       |              | random | static | dynamic |avg |
+|  |  | Word Embedding ||
+|   Model    |   Bag-of-Words           | random | static | dynamic |avg |
 | ----- | -------------| -------|--------| --------|----|
 
 ## Datasets
