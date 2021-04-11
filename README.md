@@ -9,6 +9,9 @@ The experiment will evaluate the performance of some popular deep learning model
 
 The result shows that the __word embedding provides a robust feature extractor__ to all the models in making a better final prediction. The experiment also highlights __the effectiveness of the ensemble-based__ and __temporal convolutional neural network__ in achieving good performances and even competing with the state-of-the-art benchmark models.
 
+__Project Documentation__:
+- [Project Blogpost](https://towardsdatascience.com/the-battle-of-neighborhoods-starting-a-coffee-shop-business-47dd32ad2ce6)
+- [Project Report](https://github.com/diardanoraihan/Coursera_Capstone/blob/main/document/Project_Report_The_Battle_of_Neighborhoods.pdf)
 ## Datasets
 | Dataset | Classes | Average <br /> Sentence Length | Dataset Size | Vocab Size | *Test Size | 
 |:-------:|:-------:|:-------------------:|:------------:|:----------:|:---------:|
