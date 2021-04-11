@@ -48,6 +48,7 @@ The benchmarks used in this work:
 - __USE_T+CNN__ (Cer et al., 2018) [9]
 
 ## Result
+### The proposed models against benchmarks
 
 | Model | _MR_ | _SUBJ_ |_TREC_ | _CR_ | _MPQA_ |
 |:----- |:---:|:---:|:---:|:---:|:---:|
@@ -81,7 +82,25 @@ The benchmarks used in this work:
 |__SuBiLSTM-Tied__ (Siddhartha Brahma, 2018) [8] |81.6	|93.0	|90.4	|86.5	|90.5|
 |__USE_T+CNN__ (Cer et al., 2018) [9] |81.2	|93.6	|98.1	|87.5	|87.3|
 
-<img src="Report/avg_accuracy_margin.png"><img src="Report/avg_rank_values.png"><img src="Report/word2vec_statistics.png">
+### The average accuracy margin of the models to the baseline on the 5 datasets.
+<img src="Report/avg_accuracy_margin.png">
+- The green bar represents the benchmark model. 
+- The purple bar depicts the top six proposed models that beat the baseline. 
+- The red bar is the proposed model with the lowest accuracy margin. 
+- The minus (-) sign indicates the model has much lower accuracy than higher ones in all datasets with the baseline as the reference.
+
+### The average rank values (ARV) for each model against benchmarks.
+<img src="Report/avg_rank_values.png">
+- The figure shows the top six models (the violet bar) with high average ranks and can compete with the benchmarks (the green bar).
+
+### 
+<img src="Report/word2vec_statistics.png">
+The figure illustrates the effect of different word embedding modes on the model performance. 
+- The static word embedding using pre-trained Word2Vec always performs better. The static mode can help any models predict classes more accurately up to 3% average accuracy increase than the random mode.
+- The dynamic Word2Vec can still improve the model performance/ However, the change is not significant. In some cases, a model can even have lower accuracy.
+
+## Conclusion
+
 ***
 ### References
 - [1]
