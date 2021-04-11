@@ -24,7 +24,7 @@ The result shows that the __word embedding provides a robust feature extractor__
 - __CR__. Customer Reviews – classifying a product review (cameras, MP3s, etc.) as positive or negative [4].
 - __MPQA__. Multi-Perspective Question Answering – opinion polarity detection [5].
 
-_*the test size CV stands for cross-validation. It indicates the original dataset does not have a standard train/test split. Hence, we use a 10-fold CV. The AcademiaSinicaNLPLab [6] repository provides access to all these datasets._
+_*the test size CV stands for cross-validation. It indicates the original dataset does not have a standard train/test split. Hence, we use a 10-fold CV. The __AcademiaSinicaNLPLab__ [6] repository provides access to all these datasets._
 
 ## The Proposed Deep Learning Models
 | *Model | Bag-of-Words | WE-avg| WE-random | WE-static | WE-dynamic |
