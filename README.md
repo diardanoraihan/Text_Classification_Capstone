@@ -110,15 +110,18 @@ This dissertation has demonstrated a comprehensive experiment focusing on buildi
 - TCN is an excellent alternative to recurrent architecture and has been proven effective in classifying text data.
 - The ensemble learning-based model can help make better predictions than a single model trained independently.
 - TCN and Ensemble CNN-GRU models are the best performing algorithms we obtained in this series of text classification tasks.
+
 ***
 ### References
-- [1]
-- [2]
-- [3]
-- [4]
-- [5]
-- [6]
-- [7]
+- [1] B. Pang, L. Lee, “Seeing stars: Exploiting class relationships for sentiment categorization with respect to rating scales”, In Proceedings of ACL’05, 2005.
+- [2] B. Pang, L. Lee, “A sentimental education: Sentiment analysis using subjectivity summarization based on minimum cuts”, In Proceedings of the 42nd Meeting of the Association for Computational Linguistics (ACL’04), 2004.
+- [3] X. Li, D. Roth, “Learning question classifiers”, In Proceedings of COLING ’02, 2002.
+- [4] M. Hu, B. Liu, “Mining and summarizing customer reviews”, In Proceedings of KDD ’04, 2004.
+- [5] J. Wiebe, T. Wilson, and C. Cardie, “Annotating expressions of opinions and emotions in language”, Language Resources and Evaluation, 39(2):165–210, 2005.
+- [6] AcademiaSinicaNLPLab, “sentiment_dataset”, https://github.com/AcademiaSinicaNLPLab/sentiment_dataset, January, 2021.
+- [7] Y. Kim, "Convolutional Neural Networks for Sentence Classification," Association for Computational Linguistics, October, 2014.
+- [8] S. Brahma, “Improved Sentence Modeling using Suffix Bidirectional LSTM”, arXiv, September, 2018.
+- [9] D. Cer, Y. Yang, S. Kong, N. Hua, N. Limtiaco, R. S. John, N. Constant, M. Guajardo-Cespedes, S. Yuan, C. Tar, Y. Sung, B. Strope, R. Kurzweil, “Universal Sentence Encoder”, arXiv, April, 2018.
 
 
 
