@@ -35,7 +35,7 @@ _*the test size CV stands for cross-validation. It indicates the original datase
 | BiGRU/BiLSTM | - | - |  ✓ | ✓ | ✓ |
 | Stacked BiGRU/BiLSTM | - | - | ✓ | ✓ | ✓ |
 | Ensemble CNN-GRU | - | - |  ✓ | ✓ | ✓ |\
-WE: word embedding (Word2Vec, GloVe, FastTExt, BERT, etc).
+| | | WE: word embedding (Word2Vec, GloVe, FastTExt, BERT, etc).
 
 _*For all models, the training process is done using an early stopping where the model will stop training before it overfits the training data_.
 
