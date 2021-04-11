@@ -23,7 +23,7 @@ The result shows that the __word embedding provides a robust feature extractor__
 - __CR__. Customer Reviews – classifying a product review (cameras, MP3s, etc.) as positive or negative [4].
 - __MPQA__. Multi-Perspective Question Answering – opinion polarity detection [5].
 
-_*Note_: the test size CV stands for cross-validation. It indicates the original dataset does not have a standard train/test split. Hence, we use a 10-fold CV. The AcademiaSinicaNLPLab [6] repository provides access to all these datasets.
+_*the test size CV stands for cross-validation. It indicates the original dataset does not have a standard train/test split. Hence, we use a 10-fold CV. The AcademiaSinicaNLPLab [6] repository provides access to all these datasets._
 
 ## The Proposed Deep Learning Models
 | *Model | Bag-of-Words | WE-avg| WE-random | WE-static | WE-dynamic |
@@ -35,8 +35,9 @@ _*Note_: the test size CV stands for cross-validation. It indicates the original
 | BiGRU/BiLSTM | - | - |  ✓ | ✓ | ✓ |
 | Stacked BiGRU/BiLSTM | - | - | ✓ | ✓ | ✓ |
 | Ensemble CNN-GRU | - | - |  ✓ | ✓ | ✓ |\
+WE: word embedding (Word2Vec, GloVe, FastTExt, BERT, etc).
 
-_*Note_: For all models, the training process is done using an early stopping where the model will stop training before it overfits the training data.
+_*For all models, the training process is done using an early stopping where the model will stop training before it overfits the training data_.
 
 The benchmarks used in this work:
 - __CNN-multichannel__ (Yoon Kim, 2014) [7]
@@ -48,8 +49,13 @@ The benchmarks used in this work:
 
 
 ***
-[1]() ....
-[2]() .....
+- [1]
+- [2]
+- [3]
+- [4]
+- [5]
+- [6]
+- [7]
 
 
 
