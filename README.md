@@ -18,11 +18,11 @@ The result shows that the __word embedding provides a robust feature extractor__
 | `TREC`  | 5       | 10                  | 5952         | 8759       | 500       |
 | `CR`    | 2       | 19                  | 3775         | 5334       | CV        |
 | `MPQA`  | 2       | 3                   | 10606        | 6234       | CV        |
-- __MR__. Movie Reviews – classifying a review as positive or negative [1].
-- __SUBJ__. Subjectivity – classifying a sentence as subjective or objective [2].
-- __TREC__. Text REtrieval Conference – classifying a question into six categories (a person, location, numeric information, etc.) [3].
-- __CR__. Customer Reviews – classifying a product review (cameras, MP3s, etc.) as positive or negative [4].
-- __MPQA__. Multi-Perspective Question Answering – opinion polarity detection [5].
+- __MR__. Movie Reviews – classifying a review as positive or negative [1]. [link](https://www.cs.cornell.edu/people/pabo/movie-review-data/)
+- __SUBJ__. Subjectivity – classifying a sentence as subjective or objective [2]. [link]()
+- __TREC__. Text REtrieval Conference – classifying a question into six categories (a person, location, numeric information, etc.) [3]. [link](https://cogcomp.seas.upenn.edu/Data/QA/QC/)
+- __CR__. Customer Reviews – classifying a product review (cameras, MP3s, etc.) as positive or negative [4]. [link](https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html)
+- __MPQA__. Multi-Perspective Question Answering – opinion polarity detection [5]. [link](http://mpqa.cs.pitt.edu/)
 
 _*the test size CV stands for cross-validation. It indicates the original dataset does not have a standard train/test split. Hence, we use a 10-fold CV. The __AcademiaSinicaNLPLab__ [6] repository provides access to all these datasets._
 
