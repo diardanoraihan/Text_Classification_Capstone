@@ -93,13 +93,15 @@ The benchmarks used in this work:
 <img src="Report/avg_rank_values.png"></img>
 - The figure shows the top six models (the violet bar) with high average ranks and can compete with the benchmarks (the green bar).
 
-### 
+### Random vs. Static vs. Dynamic
 <img src="Report/word2vec_statistics.png"></img>
+
 The figure illustrates the effect of different word embedding modes on the model performance. 
 - The static word embedding using pre-trained Word2Vec always performs better. The static mode can help any models predict classes more accurately up to 3% average accuracy increase than the random mode.
 - The dynamic Word2Vec can still improve the model performance/ However, the change is not significant. In some cases, a model can even have lower accuracy.
 
 ## Conclusion
+This dissertation has demonstrated a comprehensive experiment focusing on building deep learning models using two different feature extractions on five text classification datasets. In conclusion, the followings are the essential insights from this project:
 - When using the suitable feature extraction, such as word embedding, a deeper neural network can deliver a better final prediction;
 - In the edRVFL model, sigmoid works as the best activation function for text classification task;
 - To represent the text using BoW, binary proceeds as the best word scoring method, followed by freq, count, and TF-IDF.
