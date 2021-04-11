@@ -49,24 +49,24 @@ The benchmarks used in this work:
 
 ## Result
 
-| Model | MR | SUBJ | TREC | CR | MPQA |
+| Model | _MR_ | _SUBJ_ |_TREC_ | _CR_ | _MPQA_ |
 |:----- |:---:|:---:|:---:|:---:|:---:|
 | edRVFL-BoW	| 76.2	| 89.4	| 75.2	| 78.0	| 85.0 |
 | edRVFL-avg	| 77.0	| 90.6	| 83.6	| 78.5	| 86.7 |
 | SNN-a/b/c-BoW	|77.4	|90.8	|76.2	|79.7	|86.0|
 | SNN-c-avg	|78.3	|91.6	|85.8	|80.5	|87.6|
-| 1D CNN-rand (baseline)	|77.6	|92.05|	89.8	|80.4	|86.4|
-| 1D CNN-static	|79.0	|92.51	|92.2	|81.4	|88.6|
+| 1D CNN-rand (_baseline_)	|77.6	|92.05|	89.8	|80.4	|86.4|
+| 1D CNN-static	|79.0	|92.51	|92.2	|81.4	|__88.6__|
 | 1D CNN-dynamic	|79.4	|92.8	|91.6	|82.2	|87.5|
 |TCN-rand	|77.3	|91.4	|90.0	|81.2	|86.3|
-|TCN-static	|80.3	|92.3	|93.6|	83.9	|88.3|
+|TCN-static	|__80.3__	|92.3	|__93.6__|__83.9__|88.3|
 |TCN-dynamic	|80.0	|92.4	|91.8	|82.9	|88.1|
 |BiLSTM-rand	|77.6|	91.9	|88.4	|80.6	|86.3|
 |BiLSTM-static|	79.5|	92.5	|90.4	|81.7	|88.2|
 |BiLSTM-dynamic	|79.8	|92.6|	88.8	|81.8	|88.0|
 |BiGRU-rand	|77.2	|92.2	|89.0	|80.1	|86.1|
 |BiGRU-static	|79.5	|92.3	|91.8	|82.4	|88.1|
-|BiGRU-dynamic	|79.2	|93.0	|90.6	|81.6	|88.1|
+|BiGRU-dynamic	|79.2	|__93.0__	|90.6	|81.6	|88.1|
 |Stacked BiLSTM-rand|	77.7	|91.9	|89.6|	79.7|	86.1|
 |Stacked BiLSTM-static|	79.4|	92.2|	91.6|	80.9|	88.1|
 |Stacked BiLSTM-dynamic|	80.0|	92.5|	88.4|	81.7|	88.1|
@@ -76,10 +76,10 @@ The benchmarks used in this work:
 |Ensemble CNN-GRU-rand|	77.0	|91.7|	88.0|	80.9|	86.3|
 |Ensemble CNN-GRU-static|	79.8|	92.7|	93.0|	82.5|	88.4|
 |Ensemble CNN-GRU-dynamic|	79.4|	92.6|	89.6	|82.4|	88.0|
-|<p style="color:blue">CNN-multichannel (Yoon Kim, 2014) [7]</p>| 81.1|	93.2	|92.2|	85.0|	89.4|
-|SuBiLSTM (Siddhartha Brahma, 2018) [8] |81.4	|93.2	|89.8|	86.4|	90.7|
-|SuBiLSTM-Tied (Siddhartha Brahma, 2018) [8] |81.6	|93.0	|90.4	|86.5	|90.5|
-|USE_T+CNN (Cer et al., 2018) [9] |81.2	|93.6	|98.1	|87.5	|87.3|
+|__CNN-multichannel__ (Yoon Kim, 2014) [7]| 81.1|	93.2	|92.2|	85.0|	89.4|
+|__SuBiLSTM__ (Siddhartha Brahma, 2018) [8] |81.4	|93.2	|89.8|	86.4|	90.7|
+|__SuBiLSTM-Tied__ (Siddhartha Brahma, 2018) [8] |81.6	|93.0	|90.4	|86.5	|90.5|
+|__USE_T+CNN__ (Cer et al., 2018) [9] |81.2	|93.6	|98.1	|87.5	|87.3|
 
 ***
 ### References
