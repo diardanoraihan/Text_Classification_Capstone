@@ -81,6 +81,7 @@ The benchmarks used in this work:
 |__SuBiLSTM-Tied__ (Siddhartha Brahma, 2018) [8] |81.6	|93.0	|90.4	|86.5	|90.5|
 |__USE_T+CNN__ (Cer et al., 2018) [9] |81.2	|93.6	|98.1	|87.5	|87.3|
 
+<img src="Report/avg_accuracy_margin.png">
 ***
 ### References
 - [1]
