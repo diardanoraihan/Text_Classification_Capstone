@@ -25,7 +25,7 @@ The result shows that the __word embedding provides a robust feature extractor__
 _Note_: the test size CV stands for cross-validation. It indicates the original dataset does not have a standard train/test split. Hence, we use a 10-fold CV. The AcademiaSinicaNLPLab [6] repository provides access to all these datasets.
 
 ## The Proposed Deep Learning Models
-| Model | Bag-of-Words | WE-avg| WE-random | WE-static | WE-dynamic |
+| *Model | Bag-of-Words | WE-avg| WE-random | WE-static | WE-dynamic |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | SNN | ✓ | ✓ | - | - | - |
 | edRVFL | ✓ | ✓ | - | - | - |
@@ -35,12 +35,11 @@ _Note_: the test size CV stands for cross-validation. It indicates the original 
 | Stacked BiGRU/BiLSTM | - | - | ✓ | ✓ | ✓ |
 | Ensemble CNN-GRU | - | - |  ✓ | ✓ | ✓ |\
 
-Some benchmark deep learning models for text classification task on the same datasets:
-
-
-
-
-
+The benchmarks used in this work:
+- __CNN-multichannel__ (Yoon Kim, 2014) [7]
+- __SuBiLSTM__ (Siddhartha Brahma, 2018) [8]
+- __SuBiLSTM-Tied__ (Siddhartha Brahma, 2018) [8]
+- __USE_T+CNN__ (Cer et al., 2018) [9]
 
 ## Training Process
 
