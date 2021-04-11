@@ -51,6 +51,9 @@ The benchmarks used in this work:
 
 ## Result
 
+Model | MR | SUBJ | TREC | CR | MPQA
+:--- |:---:|:---:|:---:|:---:|:---:|:---:
+edRVFL-BoW	| 76.2	| 89.4	| 75.2	| 78.0	| 85.0
 
 ***
 ### References
