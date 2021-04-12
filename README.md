@@ -1,6 +1,6 @@
 # Deep Learning Techniques for Text Classification
 Master Thesis Project at Nanyang Technological University
-- __Documentation__: [Project Blogpost](https://towardsdatascience.com/the-battle-of-neighborhoods-starting-a-coffee-shop-business-47dd32ad2ce6), [Project Report](https://github.com/diardanoraihan/Coursera_Capstone/blob/main/document/Project_Report_The_Battle_of_Neighborhoods.pdf)
+- __Documentation__: [Project Blogpost](https://diardano.medium.com/deep-learning-techniques-for-text-classification-78d9dc40bf7c), [Project Report](https://github.com/diardanoraihan/Coursera_Capstone/blob/main/document/Project_Report_The_Battle_of_Neighborhoods.pdf)
 - __Author__: Diardano Raihan 
 - __Email__: diardano@gmail.com
 - __Social Media__: [LinkedIn](https://www.linkedin.com/in/diardanoraihan), [Medium](https://diardano.medium.com/)
