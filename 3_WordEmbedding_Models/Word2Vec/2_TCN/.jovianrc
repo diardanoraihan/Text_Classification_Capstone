@@ -1,3 +1,7 @@
 {
-  "notebooks": {}
+  "notebooks": {
+    "TCN_CR.ipynb": {
+      "slug": "ca3f190ea15f4f63a15764b2218ea515"
+    }
+  }
 }

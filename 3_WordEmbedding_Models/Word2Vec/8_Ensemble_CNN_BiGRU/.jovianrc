@@ -1,3 +1,7 @@
 {
-  "notebooks": {}
+  "notebooks": {
+    "Ensemble_CR.ipynb": {
+      "slug": "95229bf550824a159a0747320e802f0d"
+    }
+  }
 }
