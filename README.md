@@ -1,6 +1,6 @@
 # Deep Learning Techniques for Text Classification
 Master Thesis Project at Nanyang Technological University
-- __Publication__: [Towards Data Science](https://towardsdatascience.com/deep-learning-techniques-for-text-classification-78d9dc40bf7c), [Theses](https://github.com/diardanoraihan/Text_Classification_Capstone/blob/main/Report/DEEP%20LEARNING%20TECHNIQUES%20FOR%20TEXT%20CLASSIFICATION.pdf), [NTU Digital Repository](https://dr.ntu.edu.sg/handle/10356/150087)
+- __Publication__: [Towards Data Science](https://towardsdatascience.com/deep-learning-techniques-for-text-classification-78d9dc40bf7c), [NTU Digital Repository](https://dr.ntu.edu.sg/handle/10356/150087)
 - __Author__: Diardano Raihan 
 - __Email__: diardano@gmail.com
 - __Social Media__: [LinkedIn](https://www.linkedin.com/in/diardanoraihan), [Medium](https://diardano.medium.com/)
